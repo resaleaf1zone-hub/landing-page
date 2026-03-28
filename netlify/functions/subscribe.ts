@@ -32,4 +32,4 @@ const subscribe: Handler = async (event, context) => {
     };
 };
 
-export { subscribe };
+export const handler = subscribe;
